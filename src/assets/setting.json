@@ -1,0 +1,26 @@
+{
+    "caurosel":[
+        {
+            "img":"../../../assets/caurosel/3.jpg",
+            "title":"Mettings",
+            "text":"This is a sample text for Meetings"
+        },
+        {
+            "img":"../../../assets/caurosel/4.jpg",
+            "title":"Help",
+            "text":"This is a sample text for Help"
+        },
+        {
+            "img":"../../../assets/caurosel/2.jpg",
+            "title":"Library",
+            "text":"This is a sample text for Library"
+        },
+        {
+            "img":"../../../assets/caurosel/1.jpg",
+            "title":"Lab",
+            "text":"This is a sample text for LAB"
+        }
+        
+                 
+    ]
+}

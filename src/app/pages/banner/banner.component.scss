@@ -1,0 +1,86 @@
+.navbar{
+    color: var(--primary);
+    border-radius: 10px;
+    background-color:var(--white);
+    padding: 5px !important;
+    margin: 10px;
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    // background-color: #808080;
+    // margin: 2px 10px 0px 10px;
+    //background-color: #efc8b1;
+#navbarNav{
+    //background-color: #efc8b1;
+    background-color: var(--secondary);
+    //background-color: #32414b;
+    //background-color: #dddddd;
+    //background-color: silver;
+    padding: 7px;
+    border-radius: 10px;
+}
+    a{
+        color: var(--white);
+        //color: white;
+        //color: #32414b;
+        padding: 5px;
+        font-weight: 500;
+        margin: 0px 5px 0px 5px;
+        border-radius: 5px;
+    }
+    a:hover{
+        color: var(--white);
+       // color:  white;
+       font-weight: 500;
+       background-color: var(--primary);
+       //background-color: white;
+    }
+    a:active{
+        color:  var(--white);
+    }
+    .active{
+        //color: #32414b;
+        //background-color:#dddddd;
+        //background-color: white;
+        color: var(--secondary);
+        font-weight: bold;
+        background-color: var(--silver);
+
+    }
+    .navbar-brand{
+        color:var(--white) !important;
+    }
+}
+
+.main-body{
+    //position: relative;
+    // .top-bg{
+    //     position: absolute;
+    //     top: 0;
+    //     background-image: url('../../../assets/svg/wave-un.svg');
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-position: top center, 50%, 50%;
+    //     height: 25%;
+    //     width: 100%;
+    //     z-index: 0;
+    // }
+    // .bottom-bg{
+    //    // position: absolute;
+    //     bottom: 0;
+    //     background-image: url('../../../assets/svg/wave-dn.svg');
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-position: top center, 50%, 50%;
+    //     //height: 270px;
+    //     width: 100%;
+    //     z-index: 0;
+    // }
+    .banner{
+      // margin-top: 10px;
+      margin: 30px 7% 0px 7%;
+    }
+
+    
+}
+footer{
+    background-color: var(--primary);
+}

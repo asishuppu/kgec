@@ -1,0 +1,223 @@
+<div class="c-body">
+    <carousel style="border-radius: 10px;" [height]="cHeight" [dots]="true" cellWidth="100%">
+        <div *ngFor="let item of cImgList" class="carousel-cell">
+            <img src="{{item.img}}">
+            <div class="text-container">
+                <h4>{{item.title}}</h4>
+                <p>{{item.text}}</p>
+            </div>
+        </div>
+    </carousel>
+    <br />
+    <div class="ribbon">
+        <span class="ribbon3"><b><label class="blink_me">* * * UPDATES * * *</label></b></span>
+        <ul class="updates">
+            <li>All updates will be availabe here up to date, please subscribe for kgec updates.</li>
+            <li>All updates will be availabe here up to date, please subscribe for kgec updates.</li>
+            <li>All updates will be availabe here up to date, please subscribe for kgec updates.</li>
+        </ul>
+    </div>
+    <div class="row contact">
+        <div class="col-lg-6" style="margin-top: 5%;">
+            <p style="font-size: 20px;">
+                <b>Excited about your eligibility for Universites or study courses !</b>
+            </p>
+            <p>
+                Want to have a direct consultation, reach us on <i style="color: green;" class="fa-brands fa-whatsapp"></i> <a class="wa" target="_blank"
+                    href="https://wa.me/4917641998539">+49 17641998539 </a>
+                (call or whatsApp)
+            </p>
+        </div> 
+        <div class="col-lg-6">
+            <!--Section: Contact v.2-->
+            <section>
+                <!--Section heading-->
+                <h4 class="h1-responsive font-weight-bold text-center">Contact us</h4>
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control">
+
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Your mobile</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+                <div class="text-center text-md-left mt-2">
+                    <a style="background-color:#993441 ;" class="btn btn-primary"
+                        onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </section>
+        </div>
+    </div>
+    <div class="steps container-fluid">
+        <p style="font-size: 20px;">
+            <b>We help you for reaching your study Goals in 5 EASY STEPS</b>
+        </p>
+        <div class="row">
+            <div class="card col-lg-2">
+                <div class="card-body"> 
+                  <h6>Step 1</h6>    
+                 <i class="fa-solid fa-address-card"></i>
+                  <h5 class="card-title">Contact</h5>
+                </div>
+            </div>
+            <div class="card col-lg-2">
+                <div class="card-body"> 
+                  <h6>Step 2</h6>   
+                  <i class="fa-solid fa-people-arrows"></i>
+                  <h5 class="card-title">Counseling</h5>
+                </div>
+            </div>
+            <div class="card col-lg-2">
+                <div class="card-body">
+                    <h6>Step 3</h6>    
+                  <i class="fa-solid fa-building-columns"></i>
+                  <h5 class="card-title">Admission</h5>
+                </div>
+            </div>
+            <div class="card col-lg-2">
+                <div class="card-body"> 
+                    <h6>Step 4</h6>   
+                 <i class="fa-solid fa-building-user"></i>
+                  <h5 class="card-title">University Enrollment</h5>
+                </div>
+            </div>
+            <div class="card col-lg-2">
+                <div class="card-body"> 
+                    <h6>Step 5</h6>   
+                  <i class="fa-solid fa-plane-circle-check"></i>
+                  <h5 class="card-title">Blocked 
+                    accounts & Visa 
+                    Appointment
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team container-fluid">
+        <p style="font-size: 20px;">
+            <b>Our International Team</b>
+        </p>
+       <div class="row">
+           <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top mt-2" src="../../../assets/images/profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><b>Khalyanw Bodapati</b></p>
+                </div>
+              </div>
+           </div>
+           <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top mt-2"  src="../../../assets/images/profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><b>Bawlawsri Bodapati</b></p>
+                </div>
+              </div>
+           </div>
+           <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top mt-2" src="../../../assets/images/profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><b>Andreas Brenner</b></p>
+                </div>
+              </div>
+           </div>
+           <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top mt-2" src="../../../assets/images/profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><b>Andreas Brenner</b></p>
+                </div>
+              </div>
+           </div>
+           <div class="col-lg-2">
+            <div class="card">
+                <img class="card-img-top mt-2" src="../../../assets/images/profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"><b>Shivaji Balaga</b></p>
+                </div>
+              </div>
+           </div>
+       </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="flag row">
+        <div class="step1 col">
+          <div class="d-flex content">
+              <i class="fa-solid fa-headset"></i>
+              <h6>Support</h6>
+          </div>  
+        </div>
+        <div class="step2 col">
+          <div class="d-flex content">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <h6>Reliable Pricing</h6>
+          </div>  
+        </div>
+        <div class="step3 col">
+          <div class="d-flex content">
+              <i class="fa-solid fa-people-group"></i>
+              <h6>Project Team</h6>
+          </div>  
+        </div>
+  </div>
+    <div class="flag-div container-fluid">
+        <div class="row">
+             <div class="col-lg-9">
+                 
+             </div>
+             <div class="col-lg-3">
+                
+             </div>
+        </div>
+    </div> 
+</div>
